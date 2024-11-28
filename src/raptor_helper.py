@@ -37,7 +37,8 @@ from sklearn.mixture import GaussianMixture
 llm = ChatTogether(
     model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
     temperature=0,
-    api_key=st.secrets["320a79795e9ddb748e0a32c222e1ee7c63fb3e934274a539b7c598524b7308e4"],
+    [api]key = "320a79795e9ddb748e0a32c222e1ee7c63fb3e934274a539b7c598524b7308e4"
+],
     streaming=True,
 )
 embd = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
