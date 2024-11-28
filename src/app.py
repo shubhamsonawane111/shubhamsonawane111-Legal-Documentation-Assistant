@@ -4,7 +4,9 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 
-from helper import *
+# from helper import *
+from src.helper import *
+
 
 
 st.set_page_config(layout="wide")
