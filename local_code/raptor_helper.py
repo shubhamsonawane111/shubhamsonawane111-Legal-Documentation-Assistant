@@ -36,7 +36,7 @@ load_dotenv()
 llm = ChatTogether(
     model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
     temperature=0,
-    api_key=os.getenv("TOGETHER_API_KEY"),
+    api_key=os.getenv("320a79795e9ddb748e0a32c222e1ee7c63fb3e934274a539b7c598524b7308e4"),
     streaming=True,
 )
 
