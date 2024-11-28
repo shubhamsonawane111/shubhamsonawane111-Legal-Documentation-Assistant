@@ -1,4 +1,6 @@
-from raptor_helper import *
+# from raptor_helper import *
+from .raptor_helper import *
+
 
 load_dotenv()
 warnings.filterwarnings("ignore")
